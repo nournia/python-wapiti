@@ -42,6 +42,7 @@ build: off
 
 after_test:
   - "SET VS90COMNTOOLS=%VS120COMNTOOLS%"
+  - "SET VS100COMNTOOLS=%VS120COMNTOOLS%"
   - "%WITH_COMPILER% %PYTHON%/python setup.py bdist_wheel"
 
 artifacts:
