@@ -41,7 +41,7 @@ install:
 build: off
 
 after_test:
-  - "SET VS120COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\Tools\"
+  - "SET VS120COMNTOOLS=C:\\Program Files (x86)\\Microsoft Visual Studio 12.0\\Common7\\Tools\\"
   - "SET VS90COMNTOOLS=%VS120COMNTOOLS%"
   - "SET VS100COMNTOOLS=%VS120COMNTOOLS%"
   - "%WITH_COMPILER% %PYTHON%/python setup.py bdist_wheel"
