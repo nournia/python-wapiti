@@ -1,6 +1,7 @@
 environment:
 
   global:
+    VisualStudioVersion: 12.0
     WITH_COMPILER: "cmd /E:ON /V:ON /C .\\appveyor\\run_with_compiler.cmd"
 
   matrix:
